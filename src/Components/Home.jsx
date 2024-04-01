@@ -24,4 +24,3 @@ export default function Home() {
     )
 }
 
-{/* <h1 class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500">Gradient Title</h1> */ }
