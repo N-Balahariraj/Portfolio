@@ -17,7 +17,7 @@ export default function Home() {
 
             <div className='w-[50%] flex flex-col items-center justify-center rounded-full bg-gradient-to-l from-[#f85c81] via-[#9c75d0] to-[#6d82f9]'>
                 <span className='w-[75%] h-[75%] rounded-full bg-white flex items-center justify-center'>
-                    <img src={process.env.PUBLIC_URL + "my-photo.jpg"} alt="my-image" className='rounded-full h-[100%] w-[100%]' />
+                    <img src={process.env.PUBLIC_URL + "my-photo.jpg"} alt="me" className='rounded-full h-[100%] w-[100%]' />
                 </span>
             </div>
         </div>

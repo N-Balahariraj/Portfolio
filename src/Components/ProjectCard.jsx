@@ -12,8 +12,8 @@ export default function ProjectCard() {
                     <img src={P.Image} alt="CineBites" className='rounded-md h-[60%]' />
                     <div className='projIco flex flex-col h-[40%] justify-around'>
                         <span className=' self-center font-ubuntu text-xl'>{P.Name}</span>
-                        <a href={P.GitHub} target="_blank" className='flex items-center'><i><FaGithub /></i>Github</a>
-                        <a href={P.WebSite} target="_blank" className='flex items-center'><i><BsGlobe2 /></i>WebSite</a>
+                        <a href={P.GitHub} className='flex items-center'><i><FaGithub /></i>Github</a>
+                        <a href={P.WebSite} className='flex items-center'><i><BsGlobe2 /></i>WebSite</a>
                     </div>
                 </div>
             )

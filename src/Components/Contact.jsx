@@ -11,10 +11,10 @@ export default function Contact() {
                 <div className='contactIco mt-10'>
                     <a href="tel:9865598737"><i><FaPhoneAlt /></i>9865598737</a>
                     <a href="mailto:balahariraj2@gmail.com"><i><IoMail /></i>balahariraj2@gmail.com</a>
-                    <a href="https://www.instagram.com/_u/nbhr2589/" target="_blank">
+                    <a href="https://www.instagram.com/_u/nbhr2589/">
                         <i><AiFillInstagram /></i>nbhr2589
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=61554962687999" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=61554962687999">
                         <i><FaFacebook /></i>facebook
                     </a>
                 </div>
