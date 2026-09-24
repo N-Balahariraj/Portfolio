@@ -27,7 +27,7 @@ export default function Section({ title, as: Title = "span", to, desc, carousel 
                     </span>
                 }
             </header>
-            {children}
+            <article>{children}</article>
         </section>
     )
 }

@@ -1,14 +1,15 @@
+import Sidebar from './components/Sidebar';
+import Contact from './pages/Contact';
 import './styles/App.css';
 
 function App() {
 
   return (
     <>
-    <div>
-      Hello !
-    </div>
+      <Sidebar />
+      <Contact />
     </>
-  )
+  );
 }
 
 export default App

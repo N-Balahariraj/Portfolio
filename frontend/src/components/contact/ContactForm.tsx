@@ -1,6 +1,5 @@
-import React from "react";
 
-export default function Contact() {
+export default function ContactForm() {
   return (
     <form action="">
       <input type="text" placeholder="Name" id="name" name="name" />

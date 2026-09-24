@@ -1,0 +1,31 @@
+:root {
+  --bg:        #040506;
+  --surface:   #040D12;
+  --card:      #051822;
+  --card-alt:  #041D2B;
+
+  --border:    #092938;
+
+  --text:      #F0F0F1;
+  --text-2:    #C8CBCD;
+  --text-3:    #747E83;
+  --text-4:    #556268;
+
+  --accent:    #0097E5;
+  --success:   #3F8810;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+section{
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+}
+
+header{
+    background-color: var(--card);
+    border: 1px solid var(--border) ;
+}
